@@ -1,11 +1,8 @@
 
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
-  const scrollToContact = () => {
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div 
@@ -23,13 +20,14 @@ const Hero = () => {
         <p className="text-xl md:text-2xl font-light mb-8 opacity-90 animate-fade-in">
           Creating spaces that inspire and endure
         </p>
-        <Button 
-          onClick={scrollToContact}
-          size="lg"
-          className="bg-white text-black hover:bg-gray-100 font-medium px-8 py-3 text-lg animate-fade-in"
-        >
-          Contact Us
-        </Button>
+        <Link to="/contact">
+          <Button 
+            size="lg"
+            className="bg-white text-black hover:bg-gray-100 font-medium px-8 py-3 text-lg animate-fade-in"
+          >
+            Contact Us
+          </Button>
+        </Link>
       </div>
     </section>
   );
