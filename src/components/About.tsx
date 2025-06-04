@@ -20,8 +20,8 @@ const About = () => {
           </div>
           <div className="animate-fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2965&q=80"
-              alt="Modern architecture building"
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=6000&q=80"
+              alt="Architecture team collaborating"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
           </div>
